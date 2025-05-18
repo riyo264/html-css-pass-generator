@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Inconsolata';
+    src: url(/Qiqi/ticket/Inconsolata-VariableFont_wdth\,wght.ttf);
+}
+body {
+    background-image: url(/Qiqi/ticket/background-desktop.png);
+    background-size:cover;
+    color: white;
+    z-index: 0;
+}
+
+h2{
+    font-family: 'Inconsolata', sans-serif;
+    padding-left: 45%;
+    
+}
+
+
+h1, h2, p, form {
+    position: relative;
+    z-index: 2; /* Bring the text above the lines */
+}
+
+.background-lines {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 1; /* Lower than text */
+    pointer-events: none; /* Makes sure it doesn’t block clicks */
+}
