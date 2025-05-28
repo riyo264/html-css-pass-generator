@@ -3,7 +3,7 @@
     src: url(/Qiqi/ticket/Inconsolata-VariableFont_wdth\,wght.ttf);
 }
 body {
-    background-image: url(/Qiqi/ticket/background-desktop.png);
+    background-image: url(/Qiqi/Projects/ticket/background-desktop.png);
     background-size:cover;
     color: white;
     z-index: 0;
@@ -36,14 +36,15 @@ input {
     height: 2.8em;
     padding-left: 0.7%;
     font-family: 'Inconsolata', sans-serif;;
-    background-color: white;
-    opacity: 10%;
-    backdrop-filter: blur(10px);
+    background-color: transparent;
+    color: white;
     font-size: 13.5px;
+    border-color: white;
+    border-width: 0.5px;
 }
 
 .info {
-    margin-top: 0.4%;
+    margin-top: 6.55%;
     font-family: 'Inconsolata', sans-serif;
     padding-left: 41.5%;
     font-size: 12px;
@@ -51,12 +52,46 @@ input {
 }
 
 .img {
-    height: 5em;
+    /* height: 6.3em;
     margin-bottom: -1%;
+    border-radius: 10px;
+    border-style: dashed;
+    border-width: 1px;
+    cursor: pointer;
+    margin-left: 39.9%;
+    margin-right: -10%; */
+    margin-left: -1.2%;
+    padding-left: 27.3%;
+    padding-bottom: 6%;
+    padding-top: 0.7%;
+    border-style: dashed;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.upload {
+    position: absolute;
+    z-index: 2;
+    margin-top: 22.7%;
+    margin-left: 3%;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 0.7px;
+    background-color: rgba(255, 255, 255, 0.195);
+    padding: 0.5%;
+}
+
+.drag {
+    margin-top: -1.2%;
+    font-family: 'Inconsolata', sans-serif;
+    padding-left: 46.5%;
+    font-size: 12px;
+    opacity: 75%;
 }
 
 .button {
     background-color: rgb(246, 122, 98);
+    color: black;
     border-width: 0em;
     opacity: 100%;
     font-weight: 800;
@@ -107,8 +142,8 @@ h1, h2, p, form {
     position: absolute;
     z-index: 1;
     pointer-events: none;
-    padding-left: 66%;
-    margin-top: 26%;
+    padding-left: 65%;
+    margin-top: 28%;
 }
 
 .background-swirls-des {
@@ -116,7 +151,7 @@ h1, h2, p, form {
     z-index: 1;
     pointer-events: none;
     margin-left: -0.7%;
-    margin-top: 27.6%;
+    margin-top: 33.4%;
 }
 
 .background-swirls-des-2 {
@@ -136,5 +171,6 @@ h1, h2, p, form {
 .info-logo {
     float: left;
     padding-left: 40%;
-    padding-top: 0.28%;
+    padding-top: 1.9%;
+    margin-top: 5.9%;
 }

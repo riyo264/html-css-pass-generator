@@ -11,6 +11,7 @@
         <div class="background-swirls-des"><img src="Images/pattern-squiggly-line-bottom-desktop.svg"></div>
         <div class="background-swirls-des-2"><img src="Images/pattern-squiggly-line-top.svg"></div>
         <img class="logo" src="Images/logo-mark.svg" alt="Image not found" height="24"> 
+        <img class="upload" src="Images/icon-upload.svg" alt="upload">
         <h2>Coding Conf</h2>
         <br>
         <h1>Your Journey to Coding Conf</h1>
@@ -24,8 +25,11 @@
             <div>
                 <label>Upload Avatar</label>
                 <br>
-                <input class="img" type="image" name="avatar" accept=".jpg, .jpeg, .png">
+                <br>
+                <label class="img" for="avatar"></label>
+                <input type="file" name="" id="avatar" style="display: none;visibility: none;" accept=".jpg, .jpeg, .png">
                 <img class="info-logo" src="Images/icon-info.svg">
+                <p style="font-family: 'Inconsolata',sans-serif;padding-left: 45%; margin-top: 3.8%; margin-bottom: -5%; cursor: pointer; z-index: 5; justify-content: center;opacity: 50%;">Drag and drop or click to upload</p>
                 <p class="info">upload your photo (JPG or PNG, max size: 500KB).</p>
             </div>
             <br>
