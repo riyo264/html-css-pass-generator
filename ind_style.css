@@ -77,8 +77,10 @@ input {
     border-style: solid;
     border-radius: 10px;
     border-width: 0.7px;
-    background-color: rgba(255, 255, 255, 0.195);
+    /* background-color: rgba(255, 255, 255, 0.195); */
     padding: 0.5%;
+    background-position: center;
+    background-size: cover;
 }
 
 .drag {
@@ -173,4 +175,15 @@ h1, h2, p, form {
     padding-left: 40%;
     padding-top: 1.9%;
     margin-top: 5.9%;
+}
+
+#img-view {
+    width: 30px;
+    height: 30px;
+    border: 0.5px solid #ccc;
+    display: flex;
+    cursor: pointer;
+    background-color: #f9f9f92f;
+    background-repeat: no-repeat;
+    margin-left: 51.5%;
 }
