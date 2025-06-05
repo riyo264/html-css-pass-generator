@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Inconsolata';
-    src: url(/Qiqi/ticket/Inconsolata-VariableFont_wdth\,wght.ttf);
+    src: url(/Qiqi/Projects/ticket/Inconsolata-VariableFont_wdth,wght.ttf);
 }
 body {
     background-image: url(/Qiqi/Projects/ticket/background-desktop.png);
@@ -41,28 +41,23 @@ input {
     font-size: 13.5px;
     border-color: white;
     border-width: 0.5px;
-    backdrop-filter: blur;
 }
 
-.info {
-    margin-top: 6.55%;
+p.info {
+    float: left;
+    margin-top: -2%;
+    margin-bottom: 2%;
     font-family: 'Inconsolata', sans-serif;
-    padding-left: 41.5%;
+    margin-left: 41.5%;
     font-size: 12px;
     opacity: 75%;
+    width: 27em;
+    height: 1em;
 }
 
-.img {
-    /* height: 6.3em;
-    margin-bottom: -1%;
-    border-radius: 10px;
-    border-style: dashed;
-    border-width: 1px;
-    cursor: pointer;
-    margin-left: 39.9%;
-    margin-right: -10%; */
-    margin-left: -1.2%;
-    padding-left: 27.3%;
+label.img {
+    margin-left: -17.4%;
+    padding-left: 27.5%;
     padding-bottom: 6%;
     padding-top: 0.7%;
     border-style: dashed;
@@ -95,13 +90,14 @@ input {
 .button {
     background-color: rgb(246, 122, 98);
     color: black;
-    border-width: 0em;
+    border-width: 0;
     opacity: 100%;
     font-weight: 800;
     height: 2.4em;
     width: 22em;
     font-size: 18px;
-    box-sizing: fixed;
+    box-sizing: border-box;
+    cursor: pointer;
 }
 
 .greetings {
@@ -174,8 +170,9 @@ h1, h2, p, form {
 .info-logo {
     float: left;
     padding-left: 40%;
-    padding-top: 1.9%;
-    margin-top: 5.9%;
+    margin-top: 5.5%;
+    margin-right: 30%;
+    margin-bottom: 1%;
 }
 
 #img-view {
@@ -187,4 +184,18 @@ h1, h2, p, form {
     background-color: #f9f9f92f;
     background-repeat: no-repeat;
     margin-left: 51.5%;
+}
+
+.remove-img {
+    position: relative;
+    float: left;
+    padding: 0;
+    border-radius: 0;
+    background-color: #26262b;
+    height: 1.5em;
+    width: 7em;
+    margin-left: 50.5%;
+    margin-top: 4.5%;
+    margin-bottom: -3.5%;
+    visibility: hidden;
 }

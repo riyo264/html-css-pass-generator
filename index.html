@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Static</title>
         <link rel="stylesheet" href="ind_style.css">
     </head>
     <body>
-        <div class="background-lines"><img id="lines" src="Images/pattern-lines.svg"></div>
-        <div class="background-circles"><img src="Images/pattern-circle.svg" height="200"></div>
-        <div class="background-circles-1"><img src="Images/pattern-circle.svg" height="190"></div>
-        <div class="background-swirls-des"><img src="Images/pattern-squiggly-line-bottom-desktop.svg"></div>
-        <div class="background-swirls-des-2"><img src="Images/pattern-squiggly-line-top.svg"></div>
-        <img class="logo" src="Images/logo-mark.svg" alt="Image not found" height="24"> 
+        <div class="background-lines"><img id="lines" src="Images/pattern-lines.svg" alt="lines"></div>
+        <div class="background-circles"><img src="Images/pattern-circle.svg" height="200" alt="circles"></div>
+        <div class="background-circles-1"><img src="Images/pattern-circle.svg" height="190" alt="circles-1"></div>
+        <div class="background-swirls-des"><img src="Images/pattern-squiggly-line-bottom-desktop.svg" alt="swirls"></div>
+        <div class="background-swirls-des-2"><img src="Images/pattern-squiggly-line-top.svg" alt="swirls"></div>
+        <img class="logo" src="Images/logo-mark.svg" alt="Image not found" height="24">
         <div class="upload" id="img-view">
             <img id="upload-icon" src="Images/icon-upload.svg" alt="upload">
         </div>        
@@ -19,7 +19,7 @@
         <h1>Your Journey to Coding Conf</h1>
         <h1 class="text-2">2025 Starts Here!</h1>
         
-        <p class="greetings">Secure your spot at next years's biggest coding conference</p>
+        <p class="greetings">Secure your spot at next year's biggest coding conference</p>
 
         <br>
 
@@ -28,10 +28,11 @@
                 <label>Upload Avatar</label>
                 <br>
                 <br>
+                <input id="rmv-img" type="button" class="remove-img" value="Remove Image">
                 <label class="img" for="avatar"></label>
-                <input type="file" name="" id="avatar" style="display: none;visibility: none;" accept=".jpg, .jpeg, .png">
-                <img class="info-logo" src="Images/icon-info.svg">
-                <p style="font-family: 'Inconsolata',sans-serif;padding-left: 45%; margin-top: 3.8%; margin-bottom: -5%; cursor: pointer; z-index: 5; justify-content: center;opacity: 50%;">Drag and drop or click to upload</p>
+                <input type="file" name="" id="avatar" style="display: none; visibility: hidden;" accept=".jpg, .jpeg, .png">
+                <img class="info-logo" src="Images/icon-info.svg" alt="info">
+                <p id="upload-guide" style="font-family: 'Inconsolata',sans-serif; margin-left: -26%; margin-top: 2.5%; margin-bottom: -5%; cursor: pointer; z-index: -1;opacity: 50%; float: left">Drag and drop or click to upload</p>
                 <p class="info">upload your photo (JPG or PNG, max size: 500KB).</p>
             </div>
             <br>
